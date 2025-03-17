@@ -19,7 +19,7 @@ let menu = [
 
 const Navbar = () => {
   return (
-    <section className="py-6">
+    <section className="py-6 px-2 MyXl:px-0">
       <Container>
         <Flex className="justify-between text-center">
           <div>
