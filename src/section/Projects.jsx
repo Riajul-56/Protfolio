@@ -11,7 +11,7 @@ const Projects = () => {
       <div className="border-b border-[#484848] pb-20">
         <Container>
           <div>
-            <h2 className="text-heading_text font-primary_font font-normal text-[76px] leading-[100%]">
+            <h2 className="text-heading_text font-primary_font font-normal sm:text-[76px] text-[43px] leading-[100%]">
               Featured Projects
             </h2>
             <p className="text-primary_text text-[18px] font-normal font-secondary_font leading-[150%] max-w-[600px] mt-3">
