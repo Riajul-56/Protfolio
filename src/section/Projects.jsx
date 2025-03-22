@@ -1,9 +1,8 @@
 import React from "react";
 import Container from "../compoents/Container";
 import ProjectCard from "../ProjectCard";
-import project_1 from "../assets/project_1.png"
-import project_2 from "../assets/project_2.png"
-
+// import project_1 from "../assets/project_1.png";
+import project_2 from "../assets/project_2.png";
 
 const Projects = () => {
   return (
@@ -20,7 +19,7 @@ const Projects = () => {
         </div>
 
         <ProjectCard
-          img={project_1}
+          img={project_2}
           h3={"Exclusive a Complete E-Commerce Website"}
           text={
             "This is an e-commerce website featuring a responsive UI built with React and Tailwind CSS. It includes a category-based sidebar, a navigation bar, a search bar, and promotional banners. The homepage highlights discounts, product categories, and a user-friendly shopping experience with a clean, modern design."
