@@ -1,8 +1,9 @@
 import React from "react";
 import Container from "../compoents/Container";
 import ProjectCard from "../ProjectCard";
-// import project_1 from "../assets/project_1.png";
+import project_1 from "../assets/project_1.png";
 import project_2 from "../assets/project_2.png";
+import project_3 from "../assets/project_3.png";
 
 const Projects = () => {
   return (
@@ -19,7 +20,7 @@ const Projects = () => {
         </div>
 
         <ProjectCard
-          img={project_2}
+          img={project_1}
           h3={"Exclusive a Complete E-Commerce Website"}
           text={
             "This is an e-commerce website featuring a responsive UI built with React and Tailwind CSS. It includes a category-based sidebar, a navigation bar, a search bar, and promotional banners. The homepage highlights discounts, product categories, and a user-friendly shopping experience with a clean, modern design."
@@ -38,6 +39,17 @@ const Projects = () => {
           year={2025}
           link_1={"https://nextgen-gules.vercel.app/"}
           link_2={"https://github.com/Riajul-56/NextGen"}
+        />
+
+        <ProjectCard
+          img={project_3}
+          h3={"Life Time Gaming Experience."}
+          text={
+            "This is a gaming website project named Hancok built with a futuristic and modern UI. It features gaming news, live streams, popular games, accessories, and an elite gaming team section. The fully responsive design, dark-themed layout, and interactive elements make it an engaging platform for gamers."
+          }
+          year={2024}
+          link_1={"https://hancok.vercel.app/"}
+          link_2={"https://github.com/Riajul-56/Hancok"}
         />
       </Container>
     </section>

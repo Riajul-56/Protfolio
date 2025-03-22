@@ -5,11 +5,11 @@ import { FaGithub } from "react-icons/fa";
 
 const ProjectCard = ({ text, h3, img, link_1, link_2 ,year}) => {
   return (
-    <Flex className="gap-12 items-center mt-20">
-      <Flex className="bg-[#1A1A1A] w-[600px] h-[600px] items-center justify-center rounded-lg">
+    <Flex className="gap-12 items-center mt-20 flex-col sm:flex-row">
+      <Flex className="bg-[#1A1A1A] max-w-[600px] sm:w-[600px] sm:h-[600px] max-h-[600px] items-center justify-center rounded-lg">
         <img
           src={img}
-          className="w-[500px] h-[347px] rounded-xl border border-primary_bg"
+          className="sm:w-[500px] sm:h-[347px] w-auto rounded-xl border border-primary_bg"
         />
       </Flex>
 
