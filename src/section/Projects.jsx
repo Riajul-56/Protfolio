@@ -1,6 +1,9 @@
 import React from "react";
 import Container from "../compoents/Container";
 import ProjectCard from "../ProjectCard";
+import project_1 from "../assets/project_1.png"
+import project_2 from "../assets/project_2.png"
+
 
 const Projects = () => {
   return (
@@ -17,10 +20,25 @@ const Projects = () => {
         </div>
 
         <ProjectCard
-          h3={"Promotional landing page for our favorite show"}
+          img={project_1}
+          h3={"Exclusive a Complete E-Commerce Website"}
           text={
-            "Teamed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure Time. Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a newsletter feature to keep fans updated with the latest adventures."
+            "This is an e-commerce website featuring a responsive UI built with React and Tailwind CSS. It includes a category-based sidebar, a navigation bar, a search bar, and promotional banners. The homepage highlights discounts, product categories, and a user-friendly shopping experience with a clean, modern design."
           }
+          year={2024}
+          link_1={"https://exclusive-smoky.vercel.app/"}
+          link_2={"https://github.com/Riajul-56/Exclusive"}
+        />
+
+        <ProjectCard
+          img={project_2}
+          h3={"Best NFTs Marketplace."}
+          text={
+            "This NFT marketplace landing page features a futuristic dark-themed UI with neon accents, bold typography, and 3D artwork. It includes a navigation bar, CTA buttons, and a hero section promoting NFT creation and trading. Built with React.js and Tailwind CSS, it ensures a modern, responsive, and engaging user experience."
+          }
+          year={2025}
+          link_1={"https://nextgen-gules.vercel.app/"}
+          link_2={"https://github.com/Riajul-56/NextGen"}
         />
       </Container>
     </section>
