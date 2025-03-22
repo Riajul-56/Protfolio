@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "../compoents/Container";
-import ProjectCard from "../ProjectCard";
+import ProjectCard from "../compoents/ProjectCard";
 import project_1 from "../assets/project_1.png";
 import project_2 from "../assets/project_2.png";
 import project_3 from "../assets/project_3.png";
@@ -22,7 +22,7 @@ const Projects = () => {
 
           <ProjectCard
             img={project_1}
-            h3={"Exclusive a Complete E-Commerce Website"}
+            h3={"E-commerce product page."}
             text={
               "This is an e-commerce website featuring a responsive UI built with React and Tailwind CSS. It includes a category-based sidebar, a navigation bar, a search bar, and promotional banners. The homepage highlights discounts, product categories, and a user-friendly shopping experience with a clean, modern design."
             }

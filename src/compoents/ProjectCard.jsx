@@ -1,9 +1,9 @@
 import React from "react";
-import Flex from "./compoents/Flex";
+import Flex from "./Flex";
 import { ImArrowUpRight2 } from "react-icons/im";
 import { FaGithub } from "react-icons/fa";
 
-const ProjectCard = ({ text, h3, img, link_1, link_2 ,year}) => {
+const ProjectCard = ({ text, h3, img, link_1, link_2, year }) => {
   return (
     <Flex className="gap-12 items-center mt-20 flex-col sm:flex-row">
       <Flex className="bg-[#1A1A1A] max-w-[600px] sm:w-[600px] sm:h-[600px] max-h-[600px] items-center justify-center rounded-lg">
