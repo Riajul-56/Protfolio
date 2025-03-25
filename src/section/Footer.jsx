@@ -1,17 +1,22 @@
 import React from "react";
 import Container from "../compoents/Container";
 import Flex from "../compoents/Flex";
+import { FaLinkedinIn } from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai";
+import { BsTwitterX } from "react-icons/bs";
+import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <section className="mt-20">
+    <section className="mt-20 mb-20">
       <Container>
-        <Flex>
+        <Flex className="justify-between ">
           <div>
             <h2 className="font-primary_font font-normal text-[76px] text-heading_text leading-[100%] ">
               Let’s connect
             </h2>
-            <p className="font-secondary_font font-normal text-[18px] text-primary_text">
+
+            <p className="font-secondary_font font-normal text-[18px] text-primary_text mt-4">
               Say hello at{" "}
               <a
                 href="https://mail.google.com/mail/u/0/#inbox"
@@ -20,6 +25,74 @@ const Footer = () => {
                 riajulhasansiam@gmail.com
               </a>
             </p>
+
+            <p className="font-secondary_font font-normal text-[18px] text-primary_text mt-2">
+              For more info, here’s my{" "}
+              <a
+                href="https://drive.google.com/file/d/132KfbTsh7pcfcK2m5U35OtB5PycXd8Nq/view"
+                className="text-heading_text border-b border-link"
+              >
+                resume
+              </a>
+            </p>
+
+            <Flex className="text-link gap-6 text-2xl mt-10">
+              <FaLinkedinIn />
+              <AiFillGithub />
+              <BsTwitterX />
+              <FaInstagram />
+            </Flex>
+          </div>
+
+          <div>
+            <form className="w-[600px]">
+              <div className="mb-6">
+                <label className="block text-primary_text text-[16px] font-secondary_font font-normal mb-2">
+                  Name
+                </label>
+                <input
+                  type="text"
+                  className="w-full bg-[#1A1A1A] py-[12px] rounded-[4px] text-heading_text text-[18px] font-secondary_font font-normal"
+                />
+              </div>
+
+              <div className="mb-4">
+                <label className="block text-primary_text text-[16px] font-secondary_font font-normal mb-2">
+                  Email
+                </label>
+                <input
+                  type="email"
+                  className="w-full bg-[#1A1A1A] py-[12px] rounded-[4px] text-heading_text text-[18px] font-secondary_font font-normal"
+                />
+              </div>
+
+              <div className="mb-4">
+                <label className="block text-primary_text text-[16px] font-secondary_font font-normal mb-2">
+                  Subject
+                </label>
+                <input
+                  type="text"
+                  className="w-full bg-[#1A1A1A] py-[12px] rounded-[4px] text-heading_text text-[18px] font-secondary_font font-normal"
+                />
+              </div>
+
+              <div>
+                <label className="block text-primary_text text-[16px] font-secondary_font font-normal mb-2">
+                  Message
+                </label>
+                <textarea
+                  rows="4"
+                  className="w-full bg-[#1A1A1A] py-[12px] rounded-[4px] text-heading_text text-[18px] font-secondary_font font-normal"
+                ></textarea>
+              </div>
+            </form>
+
+            <button
+              type="submit"
+              className="text-primary_bg text-[16px] font-secondary_font font-bold bg-link rounded-[100px] py-[19px] px-[40px] mt-10"
+            >
+              SUBMIT
+            </button>
           </div>
         </Flex>
       </Container>
