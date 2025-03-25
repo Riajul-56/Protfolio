@@ -3,6 +3,7 @@ import Navbar from "./section/Navbar";
 import Banner from "./section/Banner";
 import Projects from "./section/Projects";
 import About from "./section/About";
+import Footer from "./section/Footer";
 
 const App = () => {
   return(
@@ -11,6 +12,8 @@ const App = () => {
     <Banner/>
     <Projects/>
     <About/>
+    <Footer/>
+  
     </>
   )
 };
