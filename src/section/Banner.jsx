@@ -5,6 +5,9 @@ import dp from "../assets/DP.png";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { GoDotFill } from "react-icons/go";
+import { ReactTyped } from "react-typed";
+
+
 
 const Banner = () => {
   return (
@@ -13,8 +16,16 @@ const Banner = () => {
         <Container>
           <Flex className="items-center sm:gap-40 gap-[64px] flex-col sm:flex-row">
             <div>
-              <h1 className="text-heading_text font-primary_font font-normal sm:text-[101px] max-w-[544px] leading-[90%] text-[57px]">
-                hi, i am <br /> Riajul Hasan.
+              <h1 className="text-heading_text font-primary_font font-normal sm:text-[101px] sm:w-[544px] leading-[90%] text-[57px]">
+                hi, i am <br />{" "}
+                <ReactTyped
+                  strings={["Riajul Hasan"]}
+                  typeSpeed={80}
+                  backSpeed={80}
+                  loop
+                >
+                  <input type="text" className="sm:w-[544px] w-full" />
+                </ReactTyped>
               </h1>
 
               <p className="font-secondary_font font-normal sm:text-lg text-[16px] text-primary_text leading-[150%] sm:max-w-[544px] mt-[6px] mb-[40px]">
@@ -25,7 +36,7 @@ const Banner = () => {
               <Flex className="items-center sm:gap-4 gap-2">
                 <a
                   href=""
-                  className="bg-btn hover:bg-heading_text transition duration-150 py-[19px] pl-6 pr-4 rounded-3xl text-4 text-primary_bg font-bold leading-[100%] flex items-center gap-6 "
+                  className="bg-btn hover:bg-heading_text transition duration-150 py-[19px] pl-6 pr-4 rounded-3xl text-4 text-primary_bg font-bold leading-[100%] flex items-center gap-6"
                 >
                   CONTACT ME <GoDotFill />
                 </a>
