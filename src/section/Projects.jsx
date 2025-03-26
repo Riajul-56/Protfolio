@@ -1,9 +1,12 @@
 import React from "react";
 import Container from "../compoents/Container";
 import ProjectCard from "../compoents/ProjectCard";
-import project_1 from "../assets/project_1.png";
-import project_2 from "../assets/project_2.png";
-import project_3 from "../assets/project_3.png";
+// import project_1 from "../assets/project_1.png";
+// import project_2 from "../assets/project_2.png";
+// import project_3 from "../assets/project_3.png";
+import project_1 from "../assets/p_1.png"
+import project_2 from "../assets/p_2.png"
+import project_3 from "../assets/p_3.png"
 
 const Projects = () => {
   return (
