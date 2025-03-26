@@ -50,7 +50,7 @@ const Projects = () => {
             }
             year={2024}
             link_1={"https://hancok.vercel.app/"}
-            link_2={"https://github.com/Riajul-56/Hancok"}
+            // link_2={"https://github.com/Riajul-56/Hancok"}
           />
         </Container>
       </div>
