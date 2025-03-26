@@ -44,8 +44,8 @@ const Footer = () => {
             </a>
           </div>
 
-          <div>
-            <form className="max-w-[600px]">
+          <div >
+            <form className="sm:w-[600px] w-full">
               <div className="mb-6">
                 <label className="block text-primary_text text-[16px] font-secondary_font font-normal mb-2">
                   Name
