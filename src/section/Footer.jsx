@@ -8,9 +8,9 @@ import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <section className="mt-20 mb-20">
+    <section className="mt-20 mb-20 px-2 MyXl:px-0">
       <Container>
-        <Flex className="justify-between ">
+        <Flex className="justify-between sm:flex-row flex-col gap-[64px] sm:gap-0">
           <div>
             <h2 className="font-primary_font font-normal text-[76px] text-heading_text leading-[100%] ">
               Let’s connect
@@ -36,16 +36,16 @@ const Footer = () => {
               </a>
             </p>
 
-            <Flex className="text-link gap-6 text-2xl mt-10">
+            <a className="text-link gap-6 text-2xl mt-10 flex">
               <FaLinkedinIn />
               <AiFillGithub />
               <BsTwitterX />
               <FaInstagram />
-            </Flex>
+            </a>
           </div>
 
           <div>
-            <form className="w-[600px]">
+            <form className="max-w-[600px]">
               <div className="mb-6">
                 <label className="block text-primary_text text-[16px] font-secondary_font font-normal mb-2">
                   Name
