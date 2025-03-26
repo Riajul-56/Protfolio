@@ -1,9 +1,9 @@
 import React from "react";
 import Container from "../compoents/Container";
 import ProjectCard from "../compoents/ProjectCard";
-import project_1 from "../assets/p_1.png"
-import project_2 from "../assets/p_2.png"
-import project_3 from "../assets/p_3.png"
+import project_1 from "../assets/p_1.png";
+import project_2 from "../assets/p_2.png";
+import project_3 from "../assets/p_3.png";
 
 const Projects = () => {
   return (
@@ -50,7 +50,7 @@ const Projects = () => {
             }
             year={2024}
             link_1={"https://hancok.vercel.app/"}
-            // link_2={"https://github.com/Riajul-56/Hancok"}
+            link_2={"https://github.com/Riajul-56/Hancok"}
           />
         </Container>
       </div>

@@ -25,28 +25,28 @@ const Banner = () => {
               <Flex className="items-center sm:gap-4 gap-2">
                 <a
                   href=""
-                  className="bg-btn py-[19px] pl-6 pr-4 rounded-3xl text-4 text-primary_bg font-bold leading-[100%] flex items-center gap-6 "
+                  className="bg-btn hover:bg-heading_text transition duration-150 py-[19px] pl-6 pr-4 rounded-3xl text-4 text-primary_bg font-bold leading-[100%] flex items-center gap-6 "
                 >
                   CONTACT ME <GoDotFill />
                 </a>
 
                 <a
                   href="https://www.linkedin.com/in/riajul-hasan112/"
-                  className="flex bg-[#222222] rounded-full text-btn gap-4 p-4  \order-1 sm:order-0"
+                  className="flex bg-[#222222] hover:bg-btn rounded-full text-btn hover:text-primary_bg transition duration-250 gap-4 p-4"
                 >
                   <FaLinkedinIn />
                 </a>
 
                 <a
                   href="https://github.com/Riajul-56"
-                  className="flex bg-[#222222] rounded-full text-btn gap-4 p-4"
+                  className="flex bg-[#222222] hover:bg-btn rounded-full text-btn hover:text-primary_bg transition duration-250 gap-4 p-4"
                 >
                   <FaGithub />
                 </a>
               </Flex>
             </div>
 
-            <div>
+            <div className="order-1 sm:order-0">
               <img
                 src={dp}
                 className="sm:h-[650px] h-[500px] w-[380px] sm:w-[500px] rounded-2xl"

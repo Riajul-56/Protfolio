@@ -41,13 +41,13 @@ const ProjectCard = ({ text, h3, img, link_1, link_2, year }) => {
         <Flex className="mt-12 gap-6">
           <a
             href={link_1}
-            className="font-secondary_font font-bold text-[16px] text-link flex items-center gap-1 border-b border-link"
+            className="font-secondary_font font-bold text-[16px] text-link hover:text-heading_text flex items-center gap-1 border-b border-link hover:border-heading_text transition duration-250 "
           >
             LIVE DEMO <ImArrowUpRight2 />
           </a>
           <a
             href={link_2}
-            className="font-secondary_font font-bold text-[16px] text-link flex items-center gap-1 border-b border-link"
+            className="font-secondary_font font-bold text-[16px] text-link hover:text-heading_text flex items-center gap-1 border-b border-link hover:border-heading_text transition duration-250 "
           >
             SEE ON GITHUB <FaGithub />
           </a>

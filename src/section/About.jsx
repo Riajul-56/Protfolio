@@ -32,7 +32,7 @@ const About = () => {
 
               <a
                 href=""
-                className="font-secondary_font font-bold text-[16px] text-link border-b  border-link "
+                className="font-secondary_font font-bold text-[16px] text-link hover:text-heading_text border-b  border-link hover:border-heading_text transition duration-200 "
               >
                 MORE ABOUT ME
               </a>

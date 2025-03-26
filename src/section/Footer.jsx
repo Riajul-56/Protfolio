@@ -19,8 +19,8 @@ const Footer = () => {
             <p className="font-secondary_font font-normal text-[18px] text-primary_text mt-4">
               Say hello at{" "}
               <a
-                href="https://mail.google.com/mail/u/0/#inbox"
-                className="text-heading_text border-b border-link"
+                href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+                className="text-heading_text hover:text-link border-b border-link hover:border-heading_text transition duration-200"
               >
                 riajulhasansiam@gmail.com
               </a>
@@ -29,8 +29,8 @@ const Footer = () => {
             <p className="font-secondary_font font-normal text-[18px] text-primary_text mt-2">
               For more info, here’s my{" "}
               <a
-                href="https://drive.google.com/file/d/132KfbTsh7pcfcK2m5U35OtB5PycXd8Nq/view"
-                className="text-heading_text border-b border-link"
+                href="https://drive.google.com/file/d/1RgXjI80NB8X5E-Kli2cdJKIoq0Am3LLd/view"
+                className="text-heading_text hover:text-link border-b border-link hover:border-heading_text transition duration-200"
               >
                 resume
               </a>
@@ -44,7 +44,7 @@ const Footer = () => {
             </a>
           </div>
 
-          <div >
+          <div>
             <form className="sm:w-[600px] w-full">
               <div className="mb-6">
                 <label className="block text-primary_text text-[16px] font-secondary_font font-normal mb-2">
