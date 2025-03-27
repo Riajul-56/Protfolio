@@ -1,6 +1,10 @@
 import React from "react";
 import Container from "../compoents/Container";
 import Flex from "../compoents/Flex";
+import { GoDotFill } from "react-icons/go";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+
 
 const About = () => {
   return (
@@ -24,18 +28,32 @@ const About = () => {
                 I am a front-end developer,looking for exciting opportunities.
                 Has Computer Science and Engineering background. Likes to focus
                 on accessibility when developing. Passionate and curious about
-                solving problems. Currently, I’m exploring Nodejs, MySQL and
-                a bit of Designing. While I am not programming, I enjoy playing
-                Cricket, Photography and playing PUBG. Learning more to
-                improve skill.
+                solving problems. Currently, I’m exploring Nodejs, MySQL and a
+                bit of Designing. While I am not programming, I enjoy playing
+                Cricket, Photography and playing PUBG. Learning more to improve
+                skill.
               </p>
 
-              <a
-                href=""
-                className="font-secondary_font font-bold text-[16px] text-link hover:text-heading_text border-b  border-link hover:border-heading_text transition duration-200 "
-              >
-                MORE ABOUT ME
-              </a>
+              <Flex className="items-center sm:gap-4 gap-2">
+                <a
+                  href="https://drive.google.com/file/d/1RgXjI80NB8X5E-Kli2cdJKIoq0Am3LLd/view"
+                  className="bg-btn hover:bg-heading_text transition duration-150 py-[19px] pl-6 pr-4 rounded-3xl text-4 text-primary_bg font-bold leading-[100%] flex items-center gap-6"
+                >
+                  My Resume <GoDotFill />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/riajul-hasan112/"
+                  className="flex bg-[#222222] hover:bg-btn rounded-full text-btn hover:text-primary_bg transition duration-250 gap-4 p-4"
+                >
+                  <FaLinkedinIn />
+                </a>
+                <a
+                  href="https://github.com/Riajul-56"
+                  className="flex bg-[#222222] hover:bg-btn rounded-full text-btn hover:text-primary_bg transition duration-250 gap-4 p-4"
+                >
+                  <FaGithub />
+                </a>
+              </Flex>
             </div>
           </Flex>
         </Container>

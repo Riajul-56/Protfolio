@@ -7,8 +7,6 @@ import { FaGithub } from "react-icons/fa";
 import { GoDotFill } from "react-icons/go";
 import { ReactTyped } from "react-typed";
 
-
-
 const Banner = () => {
   return (
     <section className="px-2 MyXl-px-0 sm:mt-[30px] mt-10">
@@ -57,7 +55,7 @@ const Banner = () => {
               </Flex>
             </div>
 
-            <div className="order-1 sm:order-0 sm:mr-20 mr-0">
+            <div className="order-1 sm:order-0 ">
               <img
                 src={dp}
                 className="sm:h-[650px] h-[500px] w-[380px] sm:w-[500px] rounded-2xl"
