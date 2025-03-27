@@ -14,7 +14,7 @@ const Banner = () => {
     <section className="px-2 MyXl-px-0 sm:mt-[30px] mt-10">
       <div className="border-b border-[#484848] pb-20">
         <Container>
-          <Flex className="items-center sm:gap-40 gap-[64px] flex-col sm:flex-row">
+          <Flex className="items-center justify-between sm:gap-0 gap-[64px] flex-col sm:flex-row ">
             <div>
               <h1 className="text-heading_text font-primary_font font-normal sm:text-[101px] sm:w-[544px] leading-[90%] text-[57px]">
                 hi, i am <br />{" "}
@@ -57,7 +57,7 @@ const Banner = () => {
               </Flex>
             </div>
 
-            <div className="order-1 sm:order-0">
+            <div className="order-1 sm:order-0 sm:mr-20 mr-0">
               <img
                 src={dp}
                 className="sm:h-[650px] h-[500px] w-[380px] sm:w-[500px] rounded-2xl"
