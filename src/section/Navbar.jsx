@@ -35,14 +35,14 @@ const Navbar = () => {
           </div>
 
           <div
-            className="sm:hidden block text-2xl text-primary_text"
+            className="sm:hidden block text-3xl text-primary_text mr-2"
             onClick={handleNav}
           >
             {navShow ? <ImCross /> : <FaBars />}
           </div>
 
           {navShow && (
-            <menu className="sm:hidden bg-link border border-primary_text absolute top-18 right-2 w-[45vw] h-[30vw] py-2 rounded-xl font-semibold  text-[#222222] text-right px-3">
+            <menu className="sm:hidden bg-link border border-primary_text absolute top-18 right-2 w-[45vw] h-[30vw] py-2 rounded-xl font-semibold  text-[#222222] text-center px-3">
               <ul>
                 {menu.map((item, index) => (
                   <li className="mt-1 mr-2" key={item.name}>{item.name}</li>
