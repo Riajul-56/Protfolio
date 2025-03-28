@@ -5,6 +5,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
 import { BsTwitterX } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -36,23 +37,49 @@ const Footer = () => {
               </a>
             </p>
 
-            <a className="text-link gap-6 text-2xl mt-10 flex">
-              <FaLinkedinIn />
-              <AiFillGithub />
-              <BsTwitterX />
-              <FaInstagram />
-            </a>
+            <div className="text-link gap-3 text-xl mt-6 flex">
+              <a
+                href="https://www.linkedin.com/in/riajul-hasan112/"
+                className="bg-[#222222] p-4 rounded-full  hover:bg-btn hover:text-primary_bg transition duration-250"
+              >
+                <FaLinkedinIn />
+              </a>
+              <a
+                href="https://github.com/Riajul-56"
+                className="bg-[#222222] p-4 rounded-full  hover:bg-btn hover:text-primary_bg transition duration-250"
+              >
+                <AiFillGithub />
+              </a>
+              <a
+                href="https://x.com/riajul_hasan112"
+                className="bg-[#222222] p-4 rounded-full  hover:bg-btn hover:text-primary_bg transition duration-250"
+              >
+                <BsTwitterX />
+              </a>
+              <a
+                href="https://www.instagram.com/riajul_hasan/"
+                className="bg-[#222222] p-4 rounded-full  hover:bg-btn hover:text-primary_bg transition duration-250"
+              >
+                <FaInstagram />
+              </a>
+              <a
+                href="https://www.facebook.com/riajul1833"
+                className="bg-[#222222] p-4 rounded-full  hover:bg-btn hover:text-primary_bg transition duration-250"
+              >
+                <FaFacebookF />
+              </a>
+            </div>
           </div>
 
           <div>
             <form className="sm:w-[600px] w-full">
               <div className="mb-6">
-                <label className="block text-primary_text text-[16px] font-secondary_font font-normal mb-2">
+                <label className="block text-primary_text text-[16px] font-secondary_font font-normal mb-2 ">
                   Name
                 </label>
                 <input
                   type="text"
-                  className="w-full bg-[#1A1A1A] py-[12px] rounded-[4px] text-heading_text text-[18px] font-secondary_font font-normal"
+                  className="w-full bg-[#1A1A1A] py-[12px] rounded-[4px] text-heading_text text-[18px] font-secondary_font font-normal px-2"
                 />
               </div>
 
@@ -62,7 +89,7 @@ const Footer = () => {
                 </label>
                 <input
                   type="email"
-                  className="w-full bg-[#1A1A1A] py-[12px] rounded-[4px] text-heading_text text-[18px] font-secondary_font font-normal"
+                  className="w-full bg-[#1A1A1A] py-[12px] rounded-[4px] text-heading_text text-[18px] font-secondary_font font-normal px-2"
                 />
               </div>
 
@@ -72,7 +99,7 @@ const Footer = () => {
                 </label>
                 <input
                   type="text"
-                  className="w-full bg-[#1A1A1A] py-[12px] rounded-[4px] text-heading_text text-[18px] font-secondary_font font-normal"
+                  className="w-full bg-[#1A1A1A] py-[12px] rounded-[4px] text-heading_text text-[18px] font-secondary_font font-normal px-2"
                 />
               </div>
 
@@ -82,7 +109,7 @@ const Footer = () => {
                 </label>
                 <textarea
                   rows="4"
-                  className="w-full bg-[#1A1A1A] py-[12px] rounded-[4px] text-heading_text text-[18px] font-secondary_font font-normal"
+                  className="w-full bg-[#1A1A1A] py-[12px] rounded-[4px] text-heading_text text-[18px] font-secondary_font font-normal px-2"
                 ></textarea>
               </div>
             </form>
