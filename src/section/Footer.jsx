@@ -12,7 +12,7 @@ const Footer = () => {
       <Container>
         <Flex className="justify-between sm:flex-row flex-col gap-[64px] sm:gap-0">
           <div>
-            <h2 className="font-primary_font font-normal text-[76px] text-heading_text leading-[100%] ">
+            <h2 className="font-primary_font font-normal text-[43px] sm:text-[76px] text-heading_text leading-[100%] ">
               Let’s connect
             </h2>
 
@@ -30,7 +30,7 @@ const Footer = () => {
               For more info, here’s my{" "}
               <a
                 href="https://drive.google.com/file/d/1RgXjI80NB8X5E-Kli2cdJKIoq0Am3LLd/view"
-                className="text-heading_text hover:text-link border-b border-link hover:border-heading_text transition duration-200"
+                className="text-heading_text hover:text-link border-b border-link hover:border-heading_text transition duration-200 "
               >
                 resume
               </a>
@@ -89,7 +89,7 @@ const Footer = () => {
 
             <button
               type="submit"
-              className="text-primary_bg text-[16px] font-secondary_font font-bold bg-link rounded-[100px] py-[19px] px-[40px] mt-10"
+              className="text-primary_bg text-[16px] font-secondary_font font-bold bg-link rounded-[100px] py-[19px] px-[40px] mt-10  hover:bg-heading_text transition duration-150"
             >
               SUBMIT
             </button>
