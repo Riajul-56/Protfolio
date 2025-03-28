@@ -9,7 +9,7 @@ import { FaGithub } from "react-icons/fa";
 const About = () => {
   return (
     <section className="mt-[122px] px-2 MyXl-px-0 ">
-      <div className="border-b border-[#484848] sm:pb-[391px] pb-20">
+      <div className="border-b border-[#484848] sm:pb-[200px] pb-20">
         <Container>
           <Flex className="justify-between sm:flex-row flex-col gap-5 sm:gap-0">
             <div>
