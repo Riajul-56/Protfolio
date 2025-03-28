@@ -8,9 +8,9 @@ const Skill = () => {
     <section className="px-2 MyXl:px-0 mt-20 ">
       <div className="border-b border-[#484848] pb-20">
         <Container>
-          <Flex className="justify-between">
+          <Flex className="justify-between flex-col sm:flex-row gap-4 sm:gap-0">
             <div>
-              <h2 className="font-primary_font font-normal text-[76px] text-heading_text leading-[100%] ">
+              <h2 className="font-primary_font font-normal text-[43px] sm:text-[76px] text-heading_text leading-[100%] ">
                 My Capabilities
               </h2>
             </div>
